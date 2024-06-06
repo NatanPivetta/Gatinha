@@ -13,7 +13,7 @@ function createButton() {
 }
 
 function homePage() {
-  window.open("gatinha-five.vercel.app/quiz.html");
+  window.open("/quiz.html");
 }
 
 if (clock() <= 0) {
