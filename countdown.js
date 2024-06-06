@@ -13,7 +13,7 @@ function createButton() {
 }
 
 function homePage() {
-  window.open("https://f324bf8b-d714-420f-bd7c-2233f9266a97-00-1a7k6w7rvym3x.kirk.replit.dev/quiz.html");
+  window.open("gatinha-five.vercel.app/quiz.html");
 }
 
 if (clock() <= 0) {
