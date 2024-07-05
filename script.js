@@ -25,7 +25,7 @@ function submitPalavra() {
     console.log("Acertou!");
     r = confirm("Acertou!");
     if (r) {
-      window.location.href = "/mes17.html";
+      window.location.href = "/mes18.html";
       console.log("confirmou");
     }
   } else {
