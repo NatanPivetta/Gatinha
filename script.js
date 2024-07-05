@@ -2,7 +2,7 @@ var mes = (new Date().getMonth());
 
 var tentativas = ["sabor", "olhos", "arms", "gatinha", "algema", "sapinha", "baby", "love", "smile", "sol"];
 
-var tentativas24 = ["", "", "paint", "", "sapinha", "burning"];
+var tentativas24 = ["", "", "paint", "", "sapinha", "burning", "brain"];
 
 
 
