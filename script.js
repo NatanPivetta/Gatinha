@@ -2,7 +2,13 @@ var mes = (new Date().getMonth());
 
 var tentativas = ["sabor", "olhos", "arms", "gatinha", "algema", "sapinha", "baby", "love", "smile", "sol"];
 
-var tentativas24 = ["", "", "paint", "", "sapinha", "burning", "brain"];
+var tentativas24 = ["", "", "paint", "", "sapinha", "burning", "brain", "", "", "girlfriend"];
+
+var encodeString = btoa(tentativas24[9]);
+
+console.log("Base64: " + encodeString);
+
+
 
 
 
@@ -18,14 +24,14 @@ function mostraBarraSubmit() {
 function submitPalavra() {
   let palavraDigitada = document.getElementById("palavraDigitada").value;
   console.log(palavraDigitada);
-  console.log(tentativas[mes], mes);
+  console.log(tentativas24[mes], mes);
   palavraDigitada = palavraDigitada.toLowerCase();
   console.log(palavraDigitada);
   if (palavraDigitada == tentativas24[mes]) {
     console.log("Acertou!");
     r = confirm("Acertou!");
     if (r) {
-      window.location.href = "/mes18.html";
+      window.location.href = "/mes21.html";
       console.log("confirmou");
     }
   } else {
