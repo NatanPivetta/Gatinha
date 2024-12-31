@@ -406,15 +406,19 @@ th {
 
 /* Estilos para o card */
 .card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 30vh;
+  max-width: 414px;
+  margin: 0 auto;
+  font-family: Cinzel Decorative, cursive;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: grid;
+  justify-content: center;
   text-align: center;
-  max-width: 400px;
-  width: 100%;
-  background-color: #fff;
-  margin: 50%;
+  color: #fbfbfb;
+  align-items: center;
 }
 
 /* Estilo para a charada */
@@ -422,7 +426,7 @@ th {
   margin-bottom: 15px;
   font-size: 18px;
   font-weight: bold;
-  color: #333;
+  color: #FD7FA7;
 }
 
 /* Estilo para o input de resposta */
