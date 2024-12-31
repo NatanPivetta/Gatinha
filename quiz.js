@@ -172,7 +172,7 @@ function fimDoJogo() {
   articleQuestoes.style.display = 'none'
 
   function homePage() {
-    window.location.href = "/home.html";
+    window.location.href = "/hunt.html";
   }
 
   if (pontos == 30) {
