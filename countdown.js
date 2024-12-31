@@ -13,7 +13,7 @@ function createButton() {
 }
 
 function homePage() {
-  window.open("/home.html");
+  window.open("/quiz.html");
 }
 
 if (clock() <= 0) {
