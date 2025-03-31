@@ -462,6 +462,7 @@ th {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
+  height: 40%;
   padding: 20px;
   background: #fff;
   border-radius: 10px;
