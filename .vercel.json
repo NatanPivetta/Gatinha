@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "src": "/mes/(.*)",
+      "status": 401,
+      "headers": { "www-authenticate": "Basic" }
+    }
+  ]
+}
