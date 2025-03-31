@@ -2,13 +2,23 @@
   <input type="password" id="password" placeholder="Digite a senha" required />
   <button type="submit">Entrar</button>
 </form>
+
 <script>
-  document.getElementById("login-form").addEventListener("submit", function (event) {
+  document.getElementById("login-form").addEventListener("submit", async function (event) {
     event.preventDefault();
     const password = document.getElementById("password").value;
-    if (password === "senha123") { // Substitua pela sua senha segura
+
+    const response = await fetch("/api/auth", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password })
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
       localStorage.setItem("auth", "true");
-      window.location.href = "mes/index.html"; // Redireciona para os arquivos protegidos
+      window.location.href = "mes/index.html";
     } else {
       alert("Senha incorreta!");
     }
