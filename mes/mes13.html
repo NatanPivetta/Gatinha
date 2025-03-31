@@ -8,6 +8,12 @@
   <link href="../style.css" rel="stylesheet" type="text/css" />
 </head>
 
+  <script>
+  if (!localStorage.getItem("auth")) {
+    window.location.href = "/login.html";
+  }
+</script>
+
 <body>
   <div id="title">
     <li><a href="../index.html">Nana e Kappo fazem o L</a></li>
