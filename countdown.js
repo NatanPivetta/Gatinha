@@ -30,7 +30,7 @@ if (stop === true) {
 function clock() {
   var startDate = new Date().getTime();
   // var endDate = new Date();
-  var endDate = new Date("2025-01-01T00:00:00");
+  var endDate = new Date("2025-04-01T20:30:00");
   // let endDate = new Date("2023-01-26T10:29:00");
   var timeRemaining = parseInt((endDate - startDate) / 1000);
   if (timeRemaining >= 0) {
