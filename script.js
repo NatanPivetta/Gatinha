@@ -33,7 +33,7 @@ function submitPalavra() {
     console.log("Acertou!");
     r = confirm("Acertou!");
     if (r) {
-      window.location.href = "/mes26.html";
+      window.location.href = "mes/mes26.html";
       console.log("confirmou");
     }
   } else {
