@@ -3,8 +3,9 @@ var mes = (new Date().getMonth());
 var tentativas = ["sabor", "olhos", "arms", "gatinha", "algema", "sapinha", "baby", "love", "smile", "sol"];
 
 var tentativas24 = ["", "", "paint", "", "sapinha", "burning", "brain", "", "", "girlfriend"];
+var tentativas25 = ["0","1","2","teste"]
 
-var encodeString = btoa(tentativas24[9]);
+var encodeString = btoa(tentativas25[mes]);
 console.log(mes);
 
 console.log("Base64: " + encodeString);
