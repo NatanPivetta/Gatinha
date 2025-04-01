@@ -13,7 +13,7 @@ function createButton() {
 }
 
 function homePage() {
-  window.open("/hunt.html");
+  window.open("/home.html");
 }
 
 if (clock() <= 0) {

@@ -5,6 +5,7 @@ var tentativas = ["sabor", "olhos", "arms", "gatinha", "algema", "sapinha", "bab
 var tentativas24 = ["", "", "paint", "", "sapinha", "burning", "brain", "", "", "girlfriend"];
 
 var encodeString = btoa(tentativas24[9]);
+console.log(mes);
 
 console.log("Base64: " + encodeString);
 
