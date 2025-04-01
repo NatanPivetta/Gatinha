@@ -3,7 +3,7 @@ var mes = (new Date().getMonth());
 var tentativas = ["sabor", "olhos", "arms", "gatinha", "algema", "sapinha", "baby", "love", "smile", "sol"];
 
 var tentativas24 = ["", "", "paint", "", "sapinha", "burning", "brain", "", "", "girlfriend"];
-var tentativas25 = ["0","1","2","teste"]
+var tentativas25 = ["0","1","2","treasure"]
 
 var encodeString = btoa(tentativas25[mes]);
 console.log(mes);
@@ -29,7 +29,7 @@ function submitPalavra() {
   console.log(tentativas25[mes], mes);
   palavraDigitada = palavraDigitada.toLowerCase();
   console.log(palavraDigitada);
-  if (palavraDigitada == tentativas24[mes]) {
+  if (palavraDigitada == tentativas25[mes]) {
     console.log("Acertou!");
     r = confirm("Acertou!");
     if (r) {
