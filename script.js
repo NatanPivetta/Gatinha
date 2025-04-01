@@ -26,14 +26,14 @@ function mostraBarraSubmit() {
 function submitPalavra() {
   let palavraDigitada = document.getElementById("palavraDigitada").value;
   console.log(palavraDigitada);
-  console.log(tentativas24[mes], mes);
+  console.log(tentativas25[mes], mes);
   palavraDigitada = palavraDigitada.toLowerCase();
   console.log(palavraDigitada);
   if (palavraDigitada == tentativas24[mes]) {
     console.log("Acertou!");
     r = confirm("Acertou!");
     if (r) {
-      window.location.href = "/mes21.html";
+      window.location.href = "/mes26.html";
       console.log("confirmou");
     }
   } else {
